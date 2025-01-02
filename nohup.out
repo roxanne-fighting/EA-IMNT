@@ -1,0 +1,1299 @@
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/pandas/compat/__init__.py:120: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From main.py:18: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Model.py:254: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Model.py:150: conv1d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv1D` instead.
+WARNING:tensorflow:From /users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1be345f50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1be345f50>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1be345f50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1be345f50>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1d1668310>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1d1668310>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1be345f50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1be345f50>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Model.py:120: The name tf.sparse_softmax is deprecated. Please use tf.sparse.softmax instead.
+
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Model.py:122: The name tf.sparse_tensor_dense_matmul is deprecated. Please use tf.sparse.sparse_dense_matmul instead.
+
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9d5a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9d5a50>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9af810>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9af810>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9d5c10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9d5c10>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:Entity <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9d5a50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Conv1D.call of <tensorflow.python.layers.convolutional.Conv1D object at 0x7ff1cd9d5a50>>: AttributeError: module 'gast' has no attribute 'Str'
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Model.py:90: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Init.py:17: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /users/uestc8/code/RDGCN/include/Model.py:314: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /users/uestc8/.pyenv/versions/3.6.15/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2024-06-10 09:26:13.657165: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2024-06-10 09:26:13.684568: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2500000000 Hz
+2024-06-10 09:26:13.687469: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e0dcc0e590 executing computations on platform Host. Devices:
+2024-06-10 09:26:13.687506: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2024-06-10 09:26:14.773053: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+loading a file...data/zh_en/ent_ids_1
+loading a file...data/zh_en/ent_ids_2
+e1:19388,e219572 number of all entity:38960
+loading a file...data/zh_en/ref_ent_ids
+loading a file...data/zh_en/triples_1
+loading a file...data/zh_en/triples_2
+adding the primal input layer...
+38960 rows, 300 columns.
+<class 'numpy.ndarray'> <class 'numpy.ndarray'>
+getting a sparse tensor...
+first interaction...
+computing the dual input...
+adding self attention layer...
+adding sparse attention layer...
+second interaction...
+computing the dual input...
+adding dual attention layer...
+adding sparse attention layer...
+gcn layers...
+adding a diag layer...
+adding a diag layer...
+getting loss...
+initializing...
+running...
+For each left:
+Hits@1: 62.80%
+Hits@10: 76.42%
+Hits@50: 83.28%
+Hits@100: 85.93%
+For each right:
+Hits@1: 60.94%
+Hits@10: 77.16%
+Hits@50: 85.32%
+Hits@100: 88.55%
+1/600 epochs... 0.65817946
+2/600 epochs... 0.65817946
+3/600 epochs... 0.63324857
+4/600 epochs... 0.60891134
+5/600 epochs... 0.58528745
+6/600 epochs... 0.5624106
+7/600 epochs... 0.54029346
+8/600 epochs... 0.5189191
+9/600 epochs... 0.49827856
+10/600 epochs... 0.47837228
+For each left:
+Hits@1: 64.80%
+Hits@10: 78.71%
+Hits@50: 85.24%
+Hits@100: 87.64%
+For each right:
+Hits@1: 62.48%
+Hits@10: 78.70%
+Hits@50: 86.65%
+Hits@100: 89.82%
+11/600 epochs... 0.44282362
+12/600 epochs... 0.44282362
+13/600 epochs... 0.42528394
+14/600 epochs... 0.40836734
+15/600 epochs... 0.39205718
+16/600 epochs... 0.376336
+17/600 epochs... 0.36118656
+18/600 epochs... 0.3466106
+19/600 epochs... 0.33259833
+20/600 epochs... 0.31914595
+For each left:
+Hits@1: 66.39%
+Hits@10: 80.55%
+Hits@50: 86.63%
+Hits@100: 88.87%
+For each right:
+Hits@1: 63.85%
+Hits@10: 80.21%
+Hits@50: 87.97%
+Hits@100: 90.67%
+21/600 epochs... 0.29528463
+22/600 epochs... 0.29528463
+23/600 epochs... 0.2836068
+24/600 epochs... 0.27241656
+25/600 epochs... 0.26168886
+26/600 epochs... 0.2513979
+27/600 epochs... 0.24153298
+28/600 epochs... 0.23208214
+29/600 epochs... 0.22302923
+30/600 epochs... 0.21436906
+For each left:
+Hits@1: 67.50%
+Hits@10: 81.79%
+Hits@50: 87.80%
+Hits@100: 89.81%
+For each right:
+Hits@1: 64.87%
+Hits@10: 81.22%
+Hits@50: 88.99%
+Hits@100: 91.30%
+31/600 epochs... 0.19899136
+32/600 epochs... 0.19899136
+33/600 epochs... 0.19150619
+34/600 epochs... 0.18434669
+35/600 epochs... 0.17750016
+36/600 epochs... 0.17096227
+37/600 epochs... 0.16471781
+38/600 epochs... 0.1587572
+39/600 epochs... 0.15308093
+40/600 epochs... 0.14768235
+For each left:
+Hits@1: 68.34%
+Hits@10: 82.75%
+Hits@50: 88.55%
+Hits@100: 90.71%
+For each right:
+Hits@1: 65.60%
+Hits@10: 81.92%
+Hits@50: 89.55%
+Hits@100: 91.77%
+41/600 epochs... 0.13808553
+42/600 epochs... 0.13808553
+43/600 epochs... 0.13349673
+44/600 epochs... 0.12914461
+45/600 epochs... 0.12501757
+46/600 epochs... 0.121104054
+47/600 epochs... 0.11738735
+48/600 epochs... 0.11385739
+49/600 epochs... 0.11050232
+50/600 epochs... 0.10731663
+For each left:
+Hits@1: 68.97%
+Hits@10: 83.30%
+Hits@50: 89.16%
+Hits@100: 91.25%
+For each right:
+Hits@1: 66.21%
+Hits@10: 82.45%
+Hits@50: 89.90%
+Hits@100: 92.19%
+51/600 epochs... 0.1015972
+52/600 epochs... 0.1015972
+53/600 epochs... 0.09886179
+54/600 epochs... 0.09625482
+55/600 epochs... 0.093775995
+56/600 epochs... 0.09141568
+57/600 epochs... 0.08917007
+58/600 epochs... 0.08703288
+59/600 epochs... 0.08499541
+60/600 epochs... 0.08304986
+For each left:
+Hits@1: 69.35%
+Hits@10: 83.67%
+Hits@50: 89.55%
+Hits@100: 91.65%
+For each right:
+Hits@1: 66.60%
+Hits@10: 82.91%
+Hits@50: 90.12%
+Hits@100: 92.55%
+61/600 epochs... 0.07950253
+62/600 epochs... 0.07950253
+63/600 epochs... 0.07780911
+64/600 epochs... 0.07618817
+65/600 epochs... 0.07463797
+66/600 epochs... 0.07315611
+67/600 epochs... 0.07173549
+68/600 epochs... 0.07037691
+69/600 epochs... 0.06907514
+70/600 epochs... 0.06782337
+For each left:
+Hits@1: 69.56%
+Hits@10: 84.02%
+Hits@50: 89.86%
+Hits@100: 91.92%
+For each right:
+Hits@1: 66.93%
+Hits@10: 83.27%
+Hits@50: 90.36%
+Hits@100: 92.83%
+71/600 epochs... 0.06550535
+72/600 epochs... 0.06550535
+73/600 epochs... 0.064395726
+74/600 epochs... 0.06332856
+75/600 epochs... 0.06230298
+76/600 epochs... 0.061317194
+77/600 epochs... 0.060371544
+78/600 epochs... 0.059463236
+79/600 epochs... 0.05859068
+80/600 epochs... 0.05774971
+For each left:
+Hits@1: 69.74%
+Hits@10: 84.25%
+Hits@50: 90.11%
+Hits@100: 92.12%
+For each right:
+Hits@1: 67.02%
+Hits@10: 83.46%
+Hits@50: 90.62%
+Hits@100: 93.00%
+81/600 epochs... 0.056176994
+82/600 epochs... 0.056176994
+83/600 epochs... 0.055421546
+84/600 epochs... 0.054691035
+85/600 epochs... 0.05398688
+86/600 epochs... 0.053305272
+87/600 epochs... 0.05264627
+88/600 epochs... 0.052009583
+89/600 epochs... 0.05139137
+90/600 epochs... 0.050790627
+For each left:
+Hits@1: 69.80%
+Hits@10: 84.37%
+Hits@50: 90.18%
+Hits@100: 92.37%
+For each right:
+Hits@1: 67.03%
+Hits@10: 83.64%
+Hits@50: 90.75%
+Hits@100: 93.05%
+91/600 epochs... 0.049659558
+92/600 epochs... 0.049659558
+93/600 epochs... 0.04911203
+94/600 epochs... 0.048581444
+95/600 epochs... 0.048068397
+96/600 epochs... 0.04757016
+97/600 epochs... 0.047085527
+98/600 epochs... 0.0466139
+99/600 epochs... 0.046155114
+100/600 epochs... 0.045708645
+For each left:
+Hits@1: 69.93%
+Hits@10: 84.49%
+Hits@50: 90.31%
+Hits@100: 92.50%
+For each right:
+Hits@1: 67.10%
+Hits@10: 83.78%
+Hits@50: 90.92%
+Hits@100: 93.13%
+101/600 epochs... 0.04486541
+102/600 epochs... 0.04486541
+103/600 epochs... 0.044459414
+104/600 epochs... 0.044064995
+105/600 epochs... 0.04368289
+106/600 epochs... 0.043312054
+107/600 epochs... 0.042951368
+108/600 epochs... 0.042600397
+109/600 epochs... 0.04225862
+110/600 epochs... 0.04192614
+For each left:
+Hits@1: 70.00%
+Hits@10: 84.57%
+Hits@50: 90.44%
+Hits@100: 92.60%
+For each right:
+Hits@1: 67.24%
+Hits@10: 83.85%
+Hits@50: 91.01%
+Hits@100: 93.20%
+111/600 epochs... 0.041293368
+112/600 epochs... 0.041293368
+113/600 epochs... 0.040987078
+114/600 epochs... 0.040687624
+115/600 epochs... 0.040395677
+116/600 epochs... 0.040111285
+117/600 epochs... 0.039834395
+118/600 epochs... 0.039565533
+119/600 epochs... 0.039303884
+120/600 epochs... 0.03904973
+For each left:
+Hits@1: 70.08%
+Hits@10: 84.67%
+Hits@50: 90.53%
+Hits@100: 92.65%
+For each right:
+Hits@1: 67.38%
+Hits@10: 83.90%
+Hits@50: 91.05%
+Hits@100: 93.20%
+121/600 epochs... 0.038565975
+122/600 epochs... 0.038565975
+123/600 epochs... 0.0383308
+124/600 epochs... 0.03810137
+125/600 epochs... 0.037877783
+126/600 epochs... 0.037661653
+127/600 epochs... 0.037452556
+128/600 epochs... 0.037249826
+129/600 epochs... 0.037053168
+130/600 epochs... 0.036861967
+For each left:
+Hits@1: 70.29%
+Hits@10: 84.70%
+Hits@50: 90.55%
+Hits@100: 92.69%
+For each right:
+Hits@1: 67.40%
+Hits@10: 83.99%
+Hits@50: 91.06%
+Hits@100: 93.24%
+131/600 epochs... 0.036497828
+132/600 epochs... 0.036497828
+133/600 epochs... 0.036324117
+134/600 epochs... 0.036155086
+135/600 epochs... 0.035990708
+136/600 epochs... 0.03583031
+137/600 epochs... 0.035674058
+138/600 epochs... 0.0355213
+139/600 epochs... 0.03537213
+140/600 epochs... 0.035226174
+For each left:
+Hits@1: 70.36%
+Hits@10: 84.88%
+Hits@50: 90.59%
+Hits@100: 92.76%
+For each right:
+Hits@1: 67.50%
+Hits@10: 84.04%
+Hits@50: 91.09%
+Hits@100: 93.26%
+141/600 epochs... 0.034944545
+142/600 epochs... 0.034944545
+143/600 epochs... 0.034806736
+144/600 epochs... 0.034671683
+145/600 epochs... 0.034539323
+146/600 epochs... 0.034409564
+147/600 epochs... 0.03428187
+148/600 epochs... 0.034156296
+149/600 epochs... 0.034032945
+150/600 epochs... 0.033911936
+For each left:
+Hits@1: 70.42%
+Hits@10: 84.90%
+Hits@50: 90.69%
+Hits@100: 92.80%
+For each right:
+Hits@1: 67.48%
+Hits@10: 84.17%
+Hits@50: 91.10%
+Hits@100: 93.33%
+151/600 epochs... 0.0336781
+152/600 epochs... 0.0336781
+153/600 epochs... 0.033563964
+154/600 epochs... 0.033452384
+155/600 epochs... 0.03334303
+156/600 epochs... 0.033236075
+157/600 epochs... 0.033131994
+158/600 epochs... 0.033030663
+159/600 epochs... 0.032931376
+160/600 epochs... 0.03283413
+For each left:
+Hits@1: 70.51%
+Hits@10: 84.93%
+Hits@50: 90.73%
+Hits@100: 92.87%
+For each right:
+Hits@1: 67.50%
+Hits@10: 84.24%
+Hits@50: 91.16%
+Hits@100: 93.38%
+161/600 epochs... 0.03264562
+162/600 epochs... 0.03264562
+163/600 epochs... 0.032553375
+164/600 epochs... 0.032462765
+165/600 epochs... 0.03237357
+166/600 epochs... 0.032286156
+167/600 epochs... 0.032200485
+168/600 epochs... 0.032116346
+169/600 epochs... 0.03203337
+170/600 epochs... 0.03195174
+For each left:
+Hits@1: 70.60%
+Hits@10: 84.98%
+Hits@50: 90.80%
+Hits@100: 92.89%
+For each right:
+Hits@1: 67.57%
+Hits@10: 84.30%
+Hits@50: 91.22%
+Hits@100: 93.40%
+171/600 epochs... 0.03179337
+172/600 epochs... 0.03179337
+173/600 epochs... 0.03171594
+174/600 epochs... 0.03163991
+175/600 epochs... 0.031565238
+176/600 epochs... 0.03149203
+177/600 epochs... 0.031419758
+178/600 epochs... 0.031348374
+179/600 epochs... 0.031278078
+180/600 epochs... 0.031208798
+For each left:
+Hits@1: 70.67%
+Hits@10: 85.01%
+Hits@50: 90.84%
+Hits@100: 92.97%
+For each right:
+Hits@1: 67.66%
+Hits@10: 84.35%
+Hits@50: 91.28%
+Hits@100: 93.42%
+181/600 epochs... 0.031073816
+182/600 epochs... 0.031073816
+183/600 epochs... 0.031007625
+184/600 epochs... 0.030942202
+185/600 epochs... 0.030877694
+186/600 epochs... 0.030814083
+187/600 epochs... 0.030751335
+188/600 epochs... 0.030689467
+189/600 epochs... 0.030628396
+190/600 epochs... 0.030568087
+For each left:
+Hits@1: 70.67%
+Hits@10: 85.01%
+Hits@50: 90.88%
+Hits@100: 93.01%
+For each right:
+Hits@1: 67.78%
+Hits@10: 84.42%
+Hits@50: 91.31%
+Hits@100: 93.42%
+191/600 epochs... 0.030449608
+192/600 epochs... 0.030449608
+193/600 epochs... 0.030391244
+194/600 epochs... 0.030333456
+195/600 epochs... 0.030276222
+196/600 epochs... 0.030219585
+197/600 epochs... 0.030163556
+198/600 epochs... 0.03010805
+199/600 epochs... 0.030053101
+200/600 epochs... 0.029998716
+For each left:
+Hits@1: 70.76%
+Hits@10: 85.06%
+Hits@50: 90.90%
+Hits@100: 93.02%
+For each right:
+Hits@1: 67.83%
+Hits@10: 84.47%
+Hits@50: 91.36%
+Hits@100: 93.47%
+201/600 epochs... 0.02989174
+202/600 epochs... 0.02989174
+203/600 epochs... 0.02983877
+204/600 epochs... 0.029786453
+205/600 epochs... 0.02973458
+206/600 epochs... 0.029683316
+207/600 epochs... 0.029632663
+208/600 epochs... 0.029582618
+209/600 epochs... 0.029533008
+210/600 epochs... 0.029483816
+For each left:
+Hits@1: 70.78%
+Hits@10: 85.08%
+Hits@50: 91.01%
+Hits@100: 93.06%
+For each right:
+Hits@1: 67.88%
+Hits@10: 84.51%
+Hits@50: 91.38%
+Hits@100: 93.50%
+211/600 epochs... 0.029387133
+212/600 epochs... 0.029387133
+213/600 epochs... 0.02933939
+214/600 epochs... 0.029292142
+215/600 epochs... 0.02924533
+216/600 epochs... 0.029198807
+217/600 epochs... 0.02915272
+218/600 epochs... 0.029107014
+219/600 epochs... 0.029061668
+220/600 epochs... 0.029016726
+For each left:
+Hits@1: 70.77%
+Hits@10: 85.18%
+Hits@50: 91.06%
+Hits@100: 93.05%
+For each right:
+Hits@1: 67.87%
+Hits@10: 84.57%
+Hits@50: 91.39%
+Hits@100: 93.52%
+221/600 epochs... 0.028928366
+222/600 epochs... 0.028928366
+223/600 epochs... 0.028884849
+224/600 epochs... 0.028841795
+225/600 epochs... 0.028799307
+226/600 epochs... 0.028757187
+227/600 epochs... 0.028715473
+228/600 epochs... 0.028674264
+229/600 epochs... 0.028633375
+230/600 epochs... 0.028592743
+For each left:
+Hits@1: 70.84%
+Hits@10: 85.20%
+Hits@50: 91.08%
+Hits@100: 93.09%
+For each right:
+Hits@1: 67.91%
+Hits@10: 84.56%
+Hits@50: 91.43%
+Hits@100: 93.54%
+231/600 epochs... 0.028512675
+232/600 epochs... 0.028512675
+233/600 epochs... 0.028473105
+234/600 epochs... 0.028433772
+235/600 epochs... 0.028394682
+236/600 epochs... 0.028356018
+237/600 epochs... 0.028317844
+238/600 epochs... 0.028280078
+239/600 epochs... 0.028242657
+240/600 epochs... 0.028205538
+For each left:
+Hits@1: 70.84%
+Hits@10: 85.27%
+Hits@50: 91.12%
+Hits@100: 93.13%
+For each right:
+Hits@1: 68.00%
+Hits@10: 84.57%
+Hits@50: 91.40%
+Hits@100: 93.57%
+241/600 epochs... 0.028132346
+242/600 epochs... 0.028132346
+243/600 epochs... 0.028096255
+244/600 epochs... 0.028060434
+245/600 epochs... 0.028024914
+246/600 epochs... 0.027989686
+247/600 epochs... 0.027954748
+248/600 epochs... 0.027920065
+249/600 epochs... 0.027885633
+250/600 epochs... 0.027851494
+For each left:
+Hits@1: 70.92%
+Hits@10: 85.25%
+Hits@50: 91.17%
+Hits@100: 93.10%
+For each right:
+Hits@1: 67.97%
+Hits@10: 84.58%
+Hits@50: 91.44%
+Hits@100: 93.58%
+251/600 epochs... 0.027783846
+252/600 epochs... 0.027783846
+253/600 epochs... 0.027750442
+254/600 epochs... 0.027717305
+255/600 epochs... 0.027684443
+256/600 epochs... 0.027651878
+257/600 epochs... 0.027619522
+258/600 epochs... 0.027587434
+259/600 epochs... 0.02755553
+260/600 epochs... 0.027523875
+For each left:
+Hits@1: 70.96%
+Hits@10: 85.28%
+Hits@50: 91.17%
+Hits@100: 93.10%
+For each right:
+Hits@1: 67.95%
+Hits@10: 84.58%
+Hits@50: 91.45%
+Hits@100: 93.61%
+261/600 epochs... 0.027461497
+262/600 epochs... 0.027461497
+263/600 epochs... 0.027430734
+264/600 epochs... 0.027400201
+265/600 epochs... 0.027369915
+266/600 epochs... 0.027339835
+267/600 epochs... 0.02730997
+268/600 epochs... 0.027280306
+269/600 epochs... 0.02725085
+270/600 epochs... 0.027221609
+For each left:
+Hits@1: 70.98%
+Hits@10: 85.25%
+Hits@50: 91.20%
+Hits@100: 93.13%
+For each right:
+Hits@1: 67.94%
+Hits@10: 84.61%
+Hits@50: 91.44%
+Hits@100: 93.61%
+271/600 epochs... 0.027163716
+272/600 epochs... 0.027163716
+273/600 epochs... 0.027135007
+274/600 epochs... 0.02710653
+275/600 epochs... 0.027078243
+276/600 epochs... 0.027050156
+277/600 epochs... 0.027022326
+278/600 epochs... 0.026994701
+279/600 epochs... 0.02696725
+280/600 epochs... 0.026939977
+For each left:
+Hits@1: 71.10%
+Hits@10: 85.27%
+Hits@50: 91.21%
+Hits@100: 93.13%
+For each right:
+Hits@1: 67.97%
+Hits@10: 84.65%
+Hits@50: 91.46%
+Hits@100: 93.65%
+281/600 epochs... 0.026886009
+282/600 epochs... 0.026886009
+283/600 epochs... 0.026859334
+284/600 epochs... 0.026832871
+285/600 epochs... 0.026806556
+286/600 epochs... 0.026780466
+287/600 epochs... 0.026754515
+288/600 epochs... 0.02672873
+289/600 epochs... 0.0267031
+290/600 epochs... 0.026677575
+For each left:
+Hits@1: 71.07%
+Hits@10: 85.29%
+Hits@50: 91.19%
+Hits@100: 93.13%
+For each right:
+Hits@1: 67.90%
+Hits@10: 84.71%
+Hits@50: 91.46%
+Hits@100: 93.64%
+291/600 epochs... 0.02662688
+292/600 epochs... 0.02662688
+293/600 epochs... 0.026601687
+294/600 epochs... 0.026576646
+295/600 epochs... 0.026551668
+296/600 epochs... 0.026526835
+297/600 epochs... 0.026502132
+298/600 epochs... 0.026477477
+299/600 epochs... 0.026452772
+300/600 epochs... 0.026427893
+For each left:
+Hits@1: 71.06%
+Hits@10: 85.30%
+Hits@50: 91.15%
+Hits@100: 93.11%
+For each right:
+Hits@1: 67.90%
+Hits@10: 84.76%
+Hits@50: 91.52%
+Hits@100: 93.63%
+301/600 epochs... 0.026377944
+302/600 epochs... 0.026377944
+303/600 epochs... 0.026353009
+304/600 epochs... 0.026328122
+305/600 epochs... 0.026303267
+306/600 epochs... 0.026278444
+307/600 epochs... 0.026253756
+308/600 epochs... 0.02622916
+309/600 epochs... 0.026204608
+310/600 epochs... 0.026180167
+For each left:
+Hits@1: 71.13%
+Hits@10: 85.35%
+Hits@50: 91.18%
+Hits@100: 93.17%
+For each right:
+Hits@1: 67.94%
+Hits@10: 84.77%
+Hits@50: 91.56%
+Hits@100: 93.62%
+311/600 epochs... 0.026131526
+312/600 epochs... 0.026131526
+313/600 epochs... 0.026107345
+314/600 epochs... 0.026083272
+315/600 epochs... 0.026059289
+316/600 epochs... 0.026035424
+317/600 epochs... 0.026011653
+318/600 epochs... 0.02598795
+319/600 epochs... 0.025964387
+320/600 epochs... 0.025940988
+For each left:
+Hits@1: 71.22%
+Hits@10: 85.34%
+Hits@50: 91.22%
+Hits@100: 93.18%
+For each right:
+Hits@1: 68.00%
+Hits@10: 84.74%
+Hits@50: 91.54%
+Hits@100: 93.61%
+321/600 epochs... 0.025894543
+322/600 epochs... 0.025894543
+323/600 epochs... 0.02587132
+324/600 epochs... 0.025848102
+325/600 epochs... 0.025824977
+326/600 epochs... 0.025801897
+327/600 epochs... 0.025778983
+328/600 epochs... 0.025756184
+329/600 epochs... 0.025733445
+330/600 epochs... 0.025710747
+For each left:
+Hits@1: 71.23%
+Hits@10: 85.34%
+Hits@50: 91.23%
+Hits@100: 93.19%
+For each right:
+Hits@1: 68.05%
+Hits@10: 84.77%
+Hits@50: 91.52%
+Hits@100: 93.60%
+331/600 epochs... 0.025665618
+332/600 epochs... 0.025665618
+333/600 epochs... 0.02564314
+334/600 epochs... 0.025620744
+335/600 epochs... 0.025598466
+336/600 epochs... 0.025576275
+337/600 epochs... 0.025554113
+338/600 epochs... 0.025532046
+339/600 epochs... 0.02551008
+340/600 epochs... 0.025488235
+For each left:
+Hits@1: 71.25%
+Hits@10: 85.31%
+Hits@50: 91.26%
+Hits@100: 93.18%
+For each right:
+Hits@1: 68.07%
+Hits@10: 84.84%
+Hits@50: 91.51%
+Hits@100: 93.61%
+341/600 epochs... 0.025444767
+342/600 epochs... 0.025444767
+343/600 epochs... 0.025423191
+344/600 epochs... 0.025401687
+345/600 epochs... 0.02538024
+346/600 epochs... 0.025358904
+347/600 epochs... 0.02533764
+348/600 epochs... 0.025316477
+349/600 epochs... 0.025295427
+350/600 epochs... 0.025274472
+For each left:
+Hits@1: 71.23%
+Hits@10: 85.34%
+Hits@50: 91.27%
+Hits@100: 93.16%
+For each right:
+Hits@1: 68.10%
+Hits@10: 84.81%
+Hits@50: 91.56%
+Hits@100: 93.61%
+351/600 epochs... 0.025232757
+352/600 epochs... 0.025232757
+353/600 epochs... 0.025212057
+354/600 epochs... 0.025191417
+355/600 epochs... 0.025170874
+356/600 epochs... 0.025150424
+357/600 epochs... 0.025130047
+358/600 epochs... 0.025109755
+359/600 epochs... 0.025089553
+360/600 epochs... 0.025069378
+For each left:
+Hits@1: 71.22%
+Hits@10: 85.35%
+Hits@50: 91.26%
+Hits@100: 93.15%
+For each right:
+Hits@1: 68.11%
+Hits@10: 84.82%
+Hits@50: 91.53%
+Hits@100: 93.62%
+361/600 epochs... 0.025029253
+362/600 epochs... 0.025029253
+363/600 epochs... 0.02500936
+364/600 epochs... 0.024989532
+365/600 epochs... 0.024969764
+366/600 epochs... 0.02495011
+367/600 epochs... 0.024930632
+368/600 epochs... 0.024911223
+369/600 epochs... 0.024891865
+370/600 epochs... 0.024872657
+For each left:
+Hits@1: 71.22%
+Hits@10: 85.34%
+Hits@50: 91.28%
+Hits@100: 93.19%
+For each right:
+Hits@1: 68.14%
+Hits@10: 84.82%
+Hits@50: 91.55%
+Hits@100: 93.63%
+371/600 epochs... 0.0248344
+372/600 epochs... 0.0248344
+373/600 epochs... 0.024815334
+374/600 epochs... 0.024796333
+375/600 epochs... 0.024777353
+376/600 epochs... 0.024758438
+377/600 epochs... 0.024739636
+378/600 epochs... 0.024720868
+379/600 epochs... 0.024702154
+380/600 epochs... 0.024683524
+For each left:
+Hits@1: 71.20%
+Hits@10: 85.34%
+Hits@50: 91.30%
+Hits@100: 93.18%
+For each right:
+Hits@1: 68.12%
+Hits@10: 84.84%
+Hits@50: 91.56%
+Hits@100: 93.61%
+381/600 epochs... 0.024646537
+382/600 epochs... 0.024646537
+383/600 epochs... 0.024628162
+384/600 epochs... 0.02460981
+385/600 epochs... 0.024591567
+386/600 epochs... 0.024573382
+387/600 epochs... 0.024555279
+388/600 epochs... 0.024537234
+389/600 epochs... 0.024519209
+390/600 epochs... 0.024501292
+For each left:
+Hits@1: 71.26%
+Hits@10: 85.36%
+Hits@50: 91.30%
+Hits@100: 93.19%
+For each right:
+Hits@1: 68.13%
+Hits@10: 84.85%
+Hits@50: 91.59%
+Hits@100: 93.58%
+391/600 epochs... 0.02446559
+392/600 epochs... 0.02446559
+393/600 epochs... 0.024447791
+394/600 epochs... 0.024430055
+395/600 epochs... 0.02441243
+396/600 epochs... 0.024394916
+397/600 epochs... 0.024377445
+398/600 epochs... 0.024360077
+399/600 epochs... 0.024342747
+400/600 epochs... 0.024325507
+For each left:
+Hits@1: 71.26%
+Hits@10: 85.40%
+Hits@50: 91.30%
+Hits@100: 93.20%
+For each right:
+Hits@1: 68.10%
+Hits@10: 84.86%
+Hits@50: 91.60%
+Hits@100: 93.56%
+401/600 epochs... 0.024291275
+402/600 epochs... 0.024291275
+403/600 epochs... 0.02427419
+404/600 epochs... 0.024257174
+405/600 epochs... 0.024240261
+406/600 epochs... 0.0242234
+407/600 epochs... 0.024206564
+408/600 epochs... 0.02418982
+409/600 epochs... 0.024173146
+410/600 epochs... 0.024156516
+For each left:
+Hits@1: 71.21%
+Hits@10: 85.41%
+Hits@50: 91.33%
+Hits@100: 93.18%
+For each right:
+Hits@1: 68.07%
+Hits@10: 84.88%
+Hits@50: 91.60%
+Hits@100: 93.59%
+411/600 epochs... 0.024123525
+412/600 epochs... 0.024123525
+413/600 epochs... 0.024107132
+414/600 epochs... 0.024090767
+415/600 epochs... 0.024074432
+416/600 epochs... 0.024058178
+417/600 epochs... 0.024042044
+418/600 epochs... 0.024025941
+419/600 epochs... 0.024009923
+420/600 epochs... 0.023994
+For each left:
+Hits@1: 71.19%
+Hits@10: 85.39%
+Hits@50: 91.32%
+Hits@100: 93.18%
+For each right:
+Hits@1: 68.06%
+Hits@10: 84.90%
+Hits@50: 91.64%
+Hits@100: 93.59%
+421/600 epochs... 0.023962302
+422/600 epochs... 0.023962302
+423/600 epochs... 0.023946589
+424/600 epochs... 0.023930887
+425/600 epochs... 0.0239152
+426/600 epochs... 0.023899583
+427/600 epochs... 0.023883998
+428/600 epochs... 0.023868438
+429/600 epochs... 0.023852948
+430/600 epochs... 0.023837509
+For each left:
+Hits@1: 71.25%
+Hits@10: 85.41%
+Hits@50: 91.34%
+Hits@100: 93.19%
+For each right:
+Hits@1: 68.02%
+Hits@10: 84.90%
+Hits@50: 91.63%
+Hits@100: 93.57%
+431/600 epochs... 0.023806807
+432/600 epochs... 0.023806807
+433/600 epochs... 0.02379153
+434/600 epochs... 0.023776295
+435/600 epochs... 0.023761107
+436/600 epochs... 0.023745999
+437/600 epochs... 0.02373096
+438/600 epochs... 0.023715967
+439/600 epochs... 0.023701154
+440/600 epochs... 0.023686564
+For each left:
+Hits@1: 71.24%
+Hits@10: 85.44%
+Hits@50: 91.34%
+Hits@100: 93.19%
+For each right:
+Hits@1: 68.00%
+Hits@10: 84.87%
+Hits@50: 91.62%
+Hits@100: 93.58%
+441/600 epochs... 0.023657931
+442/600 epochs... 0.023657931
+443/600 epochs... 0.023643233
+444/600 epochs... 0.023628477
+445/600 epochs... 0.023613777
+446/600 epochs... 0.023599166
+447/600 epochs... 0.023584653
+448/600 epochs... 0.02357028
+449/600 epochs... 0.02355605
+450/600 epochs... 0.023541892
+For each left:
+Hits@1: 71.18%
+Hits@10: 85.43%
+Hits@50: 91.32%
+Hits@100: 93.20%
+For each right:
+Hits@1: 67.94%
+Hits@10: 84.87%
+Hits@50: 91.62%
+Hits@100: 93.62%
+451/600 epochs... 0.0235136
+452/600 epochs... 0.0235136
+453/600 epochs... 0.023499485
+454/600 epochs... 0.023485428
+455/600 epochs... 0.023471408
+456/600 epochs... 0.023457441
+457/600 epochs... 0.02344353
+458/600 epochs... 0.023429744
+459/600 epochs... 0.023416063
+460/600 epochs... 0.023402369
+For each left:
+Hits@1: 71.18%
+Hits@10: 85.41%
+Hits@50: 91.31%
+Hits@100: 93.19%
+For each right:
+Hits@1: 67.90%
+Hits@10: 84.86%
+Hits@50: 91.58%
+Hits@100: 93.59%
+461/600 epochs... 0.02337529
+462/600 epochs... 0.02337529
+463/600 epochs... 0.023361754
+464/600 epochs... 0.023348192
+465/600 epochs... 0.023334622
+466/600 epochs... 0.02332115
+467/600 epochs... 0.02330778
+468/600 epochs... 0.023294434
+469/600 epochs... 0.023281146
+470/600 epochs... 0.023267869
+For each left:
+Hits@1: 71.12%
+Hits@10: 85.41%
+Hits@50: 91.32%
+Hits@100: 93.19%
+For each right:
+Hits@1: 67.90%
+Hits@10: 84.84%
+Hits@50: 91.58%
+Hits@100: 93.58%
+471/600 epochs... 0.023241537
+472/600 epochs... 0.023241537
+473/600 epochs... 0.02322841
+474/600 epochs... 0.023215316
+475/600 epochs... 0.023202274
+476/600 epochs... 0.02318925
+477/600 epochs... 0.023176294
+478/600 epochs... 0.023163354
+479/600 epochs... 0.023150425
+480/600 epochs... 0.023137541
+For each left:
+Hits@1: 71.08%
+Hits@10: 85.47%
+Hits@50: 91.29%
+Hits@100: 93.19%
+For each right:
+Hits@1: 67.89%
+Hits@10: 84.81%
+Hits@50: 91.54%
+Hits@100: 93.58%
+481/600 epochs... 0.023111813
+482/600 epochs... 0.023111813
+483/600 epochs... 0.023099035
+484/600 epochs... 0.023086337
+485/600 epochs... 0.02307385
+486/600 epochs... 0.023061812
+487/600 epochs... 0.023050468
+488/600 epochs... 0.023040012
+489/600 epochs... 0.023032583
+490/600 epochs... 0.023029685
+For each left:
+Hits@1: 71.08%
+Hits@10: 85.47%
+Hits@50: 91.26%
+Hits@100: 93.20%
+For each right:
+Hits@1: 67.90%
+Hits@10: 84.85%
+Hits@50: 91.52%
+Hits@100: 93.63%
+491/600 epochs... 0.023016445
+492/600 epochs... 0.023016445
+493/600 epochs... 0.02300592
+494/600 epochs... 0.022995152
+495/600 epochs... 0.022984618
+496/600 epochs... 0.022974335
+497/600 epochs... 0.022964008
+498/600 epochs... 0.022953441
+499/600 epochs... 0.022942564
+500/600 epochs... 0.022931261
+For each left:
+Hits@1: 71.06%
+Hits@10: 85.41%
+Hits@50: 91.28%
+Hits@100: 93.21%
+For each right:
+Hits@1: 67.91%
+Hits@10: 84.76%
+Hits@50: 91.57%
+Hits@100: 93.65%
+501/600 epochs... 0.02290838
+502/600 epochs... 0.02290838
+503/600 epochs... 0.022897031
+504/600 epochs... 0.022886118
+505/600 epochs... 0.022875719
+506/600 epochs... 0.022865074
+507/600 epochs... 0.022853496
+508/600 epochs... 0.022841759
+509/600 epochs... 0.022830434
+510/600 epochs... 0.022818396
+For each left:
+Hits@1: 71.08%
+Hits@10: 85.50%
+Hits@50: 91.27%
+Hits@100: 93.21%
+For each right:
+Hits@1: 67.87%
+Hits@10: 84.75%
+Hits@50: 91.53%
+Hits@100: 93.66%
+511/600 epochs... 0.022792518
+512/600 epochs... 0.022792518
+513/600 epochs... 0.022779549
+514/600 epochs... 0.022767097
+515/600 epochs... 0.022754716
+516/600 epochs... 0.022742707
+517/600 epochs... 0.022730248
+518/600 epochs... 0.022717567
+519/600 epochs... 0.022704959
+520/600 epochs... 0.022692507
+For each left:
+Hits@1: 71.12%
+Hits@10: 85.51%
+Hits@50: 91.29%
+Hits@100: 93.22%
+For each right:
+Hits@1: 67.82%
+Hits@10: 84.72%
+Hits@50: 91.55%
+Hits@100: 93.65%
+521/600 epochs... 0.022668267
+522/600 epochs... 0.022668267
+523/600 epochs... 0.022656608
+524/600 epochs... 0.022644795
+525/600 epochs... 0.022632696
+526/600 epochs... 0.022620523
+527/600 epochs... 0.022608409
+528/600 epochs... 0.022596348
+529/600 epochs... 0.02258438
+530/600 epochs... 0.022572516
+For each left:
+Hits@1: 70.98%
+Hits@10: 85.50%
+Hits@50: 91.22%
+Hits@100: 93.21%
+For each right:
+Hits@1: 67.79%
+Hits@10: 84.72%
+Hits@50: 91.55%
+Hits@100: 93.60%
+531/600 epochs... 0.022548778
+532/600 epochs... 0.022548778
+533/600 epochs... 0.022536904
+534/600 epochs... 0.022525094
+535/600 epochs... 0.022513313
+536/600 epochs... 0.02250149
+537/600 epochs... 0.022489663
+538/600 epochs... 0.022477841
+539/600 epochs... 0.02246611
+540/600 epochs... 0.022454431
+For each left:
+Hits@1: 70.96%
+Hits@10: 85.47%
+Hits@50: 91.24%
+Hits@100: 93.16%
+For each right:
+Hits@1: 67.71%
+Hits@10: 84.69%
+Hits@50: 91.50%
+Hits@100: 93.60%
+541/600 epochs... 0.022431158
+542/600 epochs... 0.022431158
+543/600 epochs... 0.022419618
+544/600 epochs... 0.02240811
+545/600 epochs... 0.02239663
+546/600 epochs... 0.022385217
+547/600 epochs... 0.02237388
+548/600 epochs... 0.02236259
+549/600 epochs... 0.022351414
+550/600 epochs... 0.022340316
+For each left:
+Hits@1: 70.92%
+Hits@10: 85.46%
+Hits@50: 91.24%
+Hits@100: 93.14%
+For each right:
+Hits@1: 67.80%
+Hits@10: 84.66%
+Hits@50: 91.47%
+Hits@100: 93.56%
+551/600 epochs... 0.02231843
+552/600 epochs... 0.02231843
+553/600 epochs... 0.022307651
+554/600 epochs... 0.022297194
+555/600 epochs... 0.02228753
+556/600 epochs... 0.022278614
+557/600 epochs... 0.022268644
+558/600 epochs... 0.022258025
+559/600 epochs... 0.022247376
+560/600 epochs... 0.022236928
+For each left:
+Hits@1: 70.94%
+Hits@10: 85.43%
+Hits@50: 91.25%
+Hits@100: 93.14%
+For each right:
+Hits@1: 67.82%
+Hits@10: 84.70%
+Hits@50: 91.47%
+Hits@100: 93.52%
+561/600 epochs... 0.02221674
+562/600 epochs... 0.02221674
+563/600 epochs... 0.022207107
+564/600 epochs... 0.02219739
+565/600 epochs... 0.022187507
+566/600 epochs... 0.022177575
+567/600 epochs... 0.022167532
+568/600 epochs... 0.022157587
+569/600 epochs... 0.022148268
+570/600 epochs... 0.0221385
+For each left:
+Hits@1: 70.91%
+Hits@10: 85.42%
+Hits@50: 91.25%
+Hits@100: 93.16%
+For each right:
+Hits@1: 67.76%
+Hits@10: 84.69%
+Hits@50: 91.55%
+Hits@100: 93.53%
+571/600 epochs... 0.022118554
+572/600 epochs... 0.022118554
+573/600 epochs... 0.022108415
+574/600 epochs... 0.022098294
+575/600 epochs... 0.022088334
+576/600 epochs... 0.022078454
+577/600 epochs... 0.022068681
+578/600 epochs... 0.022058913
+579/600 epochs... 0.022049222
+580/600 epochs... 0.022039704
+For each left:
+Hits@1: 70.89%
+Hits@10: 85.41%
+Hits@50: 91.20%
+Hits@100: 93.18%
+For each right:
+Hits@1: 67.82%
+Hits@10: 84.69%
+Hits@50: 91.50%
+Hits@100: 93.54%
+581/600 epochs... 0.022022076
+582/600 epochs... 0.022022076
+583/600 epochs... 0.022015894
+584/600 epochs... 0.022007896
+585/600 epochs... 0.021999355
+586/600 epochs... 0.021991313
+587/600 epochs... 0.021982959
+588/600 epochs... 0.021974621
+589/600 epochs... 0.021965066
+590/600 epochs... 0.0219555
+For each left:
+Hits@1: 70.81%
+Hits@10: 85.41%
+Hits@50: 91.18%
+Hits@100: 93.17%
+For each right:
+Hits@1: 67.74%
+Hits@10: 84.65%
+Hits@50: 91.51%
+Hits@100: 93.58%
+591/600 epochs... 0.021936703
+592/600 epochs... 0.021936703
+593/600 epochs... 0.02192776
+594/600 epochs... 0.02191907
+595/600 epochs... 0.021909382
+596/600 epochs... 0.021899581
+597/600 epochs... 0.02188984
+598/600 epochs... 0.021880154
+599/600 epochs... 0.021870544
+600/600 epochs... 0.021861084
+loss: [0.65817946, 0.44282362, 0.29528463, 0.19899136, 0.13808553, 0.1015972, 0.07950253, 0.06550535, 0.056176994, 0.049659558, 0.04486541, 0.041293368, 0.038565975, 0.036497828, 0.034944545, 0.0336781, 0.03264562, 0.03179337, 0.031073816, 0.030449608, 0.02989174, 0.029387133, 0.028928366, 0.028512675, 0.028132346, 0.027783846, 0.027461497, 0.027163716, 0.026886009, 0.02662688, 0.026377944, 0.026131526, 0.025894543, 0.025665618, 0.025444767, 0.025232757, 0.025029253, 0.0248344, 0.024646537, 0.02446559, 0.024291275, 0.024123525, 0.023962302, 0.023806807, 0.023657931, 0.0235136, 0.02337529, 0.023241537, 0.023111813, 0.023016445, 0.02290838, 0.022792518, 0.022668267, 0.022548778, 0.022431158, 0.02231843, 0.02221674, 0.022118554, 0.022022076, 0.021936703]
+Result:
+For each left:
+Hits@1: 70.70%
+Hits@10: 85.39%
+Hits@50: 91.14%
+Hits@100: 93.10%
+For each right:
+Hits@1: 67.69%
+Hits@10: 84.67%
+Hits@50: 91.50%
+Hits@100: 93.64%
